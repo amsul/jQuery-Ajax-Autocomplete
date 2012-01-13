@@ -11,7 +11,7 @@ Added a callback function option to the plugin
 Can be called as any other option:
 
 
-`
+```
 var options = {
   								callback = function() {
 										console.log('List has been filtered! :D');
@@ -19,4 +19,4 @@ var options = {
 							}
 
 $('#search').autocomplete(options);
-`
+```
