@@ -13,10 +13,10 @@ Can be called as any other option:
 
 ```
 var options = {
-  								callback = function() {
-										console.log('List has been filtered! :D');
-									}
-							}
+  			callback = function() {
+				console.log('List has been filtered! :D');
+			}
+		}
 
 $('#search').autocomplete(options);
 ```
